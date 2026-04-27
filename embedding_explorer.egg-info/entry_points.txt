@@ -1,2 +1,0 @@
-[console_scripts]
-embedding-explorer = embedding_explorer.cli:main
