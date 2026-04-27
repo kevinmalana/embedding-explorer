@@ -1,0 +1,27 @@
+[project]
+name = "embedding-explorer"
+version = "0.1.0"
+description = "Interactive text embedding visualization with UMAP, t-SNE, PCA, and Plotly"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Kevin Malana", email = "kevinmalana@gmail.com"}]
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.24",
+  "scikit-learn>=1.3",
+  "plotly>=5.20",
+]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.32", "umap-learn>=0.5.5", "sentence-transformers>=2.6", "openai>=1.30"]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+embedding-explorer = "embedding_explorer.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["embedding_explorer*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

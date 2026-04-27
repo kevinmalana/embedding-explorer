@@ -1,0 +1,16 @@
+text,label
+"Retrieval augmented generation grounds answers in source documents",RAG
+"A vector database stores embeddings for nearest neighbor search",RAG
+"Chunking documents improves retrieval quality for long PDFs",RAG
+"Prompt templates make LLM workflows repeatable",Prompting
+"Chain-of-thought prompting asks models to reason step by step",Prompting
+"Reflexion prompts critique and revise earlier answers",Prompting
+"UMAP projects high dimensional vectors while preserving neighborhoods",Visualization
+"t-SNE often reveals local clusters in embedding spaces",Visualization
+"PCA gives a fast linear baseline for dimensionality reduction",Visualization
+"Benchmarks measure model accuracy across reasoning tasks",Evaluation
+"LLM judges can compare answer quality with a rubric",Evaluation
+"Cost tracking helps evaluate models for production use",Evaluation
+"Multilingual assistants route requests across language-specific APIs",Agents
+"Tool calling lets models retrieve live data and take actions",Agents
+"Memory systems help agents personalize responses over time",Agents
